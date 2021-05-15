@@ -3,23 +3,21 @@ Type: Package
 Title: MRIcloud Analysis of T1 Volumetric Output
 Version: 0.3.1
 Date: 2019-07-31
-Authors@R: person("Brian", "Caffo", email = "bcaffo@gmail.com", 
-    role = c("aut", "cre"))
+Authors@R: person("Brian", "Caffo", email = "bcaffo@gmail.com", role =
+        c("aut", "cre"))
 Maintainer: Brian Caffo <bcaffo@gmail.com>
-Description: Analyzes the output from the 'T1' volumetric output 
-    from 'MRIcloud' <https://mricloud.org/>. 
+Description: Analyzes the output from the 'T1' volumetric output from
+        'MRIcloud' <https://mricloud.org/>.
 License: GPL-3
-Imports: 
-    tidyr,
-    dplyr,
-    ggplot2,
-    magrittr,
-    stats,
-    utils
-Suggests:
+Imports: tidyr, dplyr, ggplot2, magrittr, stats, utils
+Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    covr,
+    testthat
 BugReports: https://github.com/bcaffo/MRIcloudT1volumetrics/issues
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 Encoding: UTF-8
+Repository: Neuroconductor
+biocViews: 
